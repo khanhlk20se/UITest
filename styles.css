@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI Historic", "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.signupForm h2 {
+    padding: 10px 0px;
+    font-size: 25px !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.signupForm {
+    font-family: Arial, sans-serif;
+}
+
+.signupForm p {
+    color: #aeaeae;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    /* chiều cao tối đa của màn hình */
+}
+
+.googleLogin span {
+
+    font-family: "Calibri", sans-serif;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.left-panel,
+.right-panel {
+    width: 50%;
+    /* chiều rộng 50% để chia đôi màn hình */
+}
+
+.left-panel1 {
+    padding: 20px 135px;
+
+}
+
+.signupForm {
+    justify-content: center;
+}
+
+.googleLogin {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+.line {
+    position: relative;
+    text-align: center;
+}
+
+.line {
+    border-top: 1px solid #ccc;
+}
+
+.line span {
+    position: absolute;
+    background-color: white;
+    left: 45%;
+    top:-8px;
+    width: 10%;
+    color: #939393;
+}
+
+#lname {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 8px 10px;
+    /* padding-bottom: 10px; */
+    width: 100%;
+}
+
+.formSignup {
+    margin-top: 25px;
+}
+
+.button {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.signupForm-content {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+.formSignup p::last-letter{
+    color: red;
+
+}
+
+.formSignup p::after {
+    content: attr(data-end) ;
+    color: red ;
+}
+
+.confirm {
+    /* justify-content: center; */
+    padding: 15px 0px;
+    display: flex;
+}
+
+#checkbox {
+    margin-right: 5px;
+}
+
+.confirm label {
+    font-weight: bold;
+}
+
+.button{
+    margin-bottom: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #0ccc81;
+}
+
+.right-panel img{
+    width: 100%;
+    height: 100vh;
+    padding: 40px;
+    border-radius: 10% 20% 10% 20%;}
+    
